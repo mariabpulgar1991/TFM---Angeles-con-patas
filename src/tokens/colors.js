@@ -1,5 +1,5 @@
 const colors = {
-  
+
   //Ciam
   ciamLight: '#f2f6f9',
   ciamLightHover: '#e8f0f6',
@@ -69,8 +69,8 @@ const colors = {
   grayNormalActive: '#aaaaaa',
   grayDark: '#888888',
   grayDarkHover: '#666666',
-  grayDarkActive: '#444444',
-  grayDarker: '#2a2a2a',
+  grayDarkActive: '#545454',
+  grayDarker: '#2f2f2f',
 
   //Sucess
   successLight: '#e6f9ee',
