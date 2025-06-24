@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../tokens/colors';
+import '../tokens/colors.js';
 
 const StatusLabel = ({ text, status = 'default', icon, iconPosition = 'left' }) => {
   return (
