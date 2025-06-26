@@ -1,71 +1,142 @@
+import { ReactComponent as PlusIcon } from '../../public/icons/Plus.svg';
+import { ReactComponent as MinusIcon } from '../../public/icons/Minus.svg';
+import { ReactComponent as InfoIcon } from '../../public/icons/Info.svg';
+import { ReactComponent as CheckIcon } from '../../public/icons/Check.svg';
+import { ReactComponent as CheckOneIcon } from '../../public/icons/Check-1.svg';
+import { ReactComponent as HomeIcon } from '../../public/icons/Home.svg';
+import { ReactComponent as EnvelopeIcon } from '../../public/icons/Envelope.svg';
+import { ReactComponent as ProfileIcon } from '../../public/icons/Profile.svg';
+import { ReactComponent as DownloadIcon } from '../../public/icons/Download.svg';
+import { ReactComponent as UploadIcon } from '../../public/icons/Upload.svg';
+import { ReactComponent as RightIcon } from '../../public/icons/Right.svg';
+import { ReactComponent as DownIcon } from '../../public/icons/Down.svg';
+import { ReactComponent as LeftIcon } from '../../public/icons/Left.svg';
+import { ReactComponent as TopIcon } from '../../public/icons/Top.svg';
+import { ReactComponent as TrashIcon } from '../../public/icons/Trash.svg';
+import { ReactComponent as LockIcon } from '../../public/icons/Lock.svg';
+import { ReactComponent as DropDownIcon } from '../../public/icons/Drop-down.svg';
+import { ReactComponent as DropTopIcon } from '../../public/icons/Drop-top.svg';
+import { ReactComponent as DropLeftIcon } from '../../public/icons/Drop-left.svg';
+import { ReactComponent as DropRightIcon } from '../../public/icons/Drop-right.svg';
+import { ReactComponent as CartIcon } from '../../public/icons/Cart.svg';
+import { ReactComponent as NotificationIcon } from '../../public/icons/Notification.svg';
+import { ReactComponent as BurgerIcon } from '../../public/icons/Burger.svg';
+import { ReactComponent as LocationIcon } from '../../public/icons/Location.svg';
+import { ReactComponent as SearchIcon } from '../../public/icons/Search.svg';
+import { ReactComponent as ShoppingIcon } from '../../public/icons/Shopping.svg';
+import { ReactComponent as TransportIcon } from '../../public/icons/Transport.svg';
+import { ReactComponent as OfferIcon } from '../../public/icons/Offer.svg';
+import { ReactComponent as DocumentIcon } from '../../public/icons/Document.svg';
+import { ReactComponent as BillingIcon } from '../../public/icons/Billing.svg';
+import { ReactComponent as SettingsIcon } from '../../public/icons/Settings.svg';
+import { ReactComponent as ChatIcon } from '../../public/icons/Chat.svg';
+import { ReactComponent as HelpIcon } from '../../public/icons/Help.svg';
+import { ReactComponent as AttachmentIcon } from '../../public/icons/Attachment.svg';
+import { ReactComponent as CloseIcon } from '../../public/icons/Close.svg';
+import { ReactComponent as LogoutIcon } from '../../public/icons/Logout.svg';
+import { ReactComponent as HistoryIcon } from '../../public/icons/History.svg';
+import { ReactComponent as PhoneIcon } from '../../public/icons/Phone.svg';
+import { ReactComponent as SendIcon } from '../../public/icons/Send.svg';
+import { ReactComponent as PhotoIcon } from '../../public/icons/Photo.svg';
+import { ReactComponent as OptionsIcon } from '../../public/icons/Options.svg';
+import { ReactComponent as PinIcon } from '../../public/icons/Pin.svg';
+import { ReactComponent as TimeIcon } from '../../public/icons/Time.svg';
+import { ReactComponent as PassengerIcon } from '../../public/icons/Passenger.svg';
+import { ReactComponent as CheckboxIcon } from '../../public/icons/Checkbox.svg';
+import { ReactComponent as CheckboxBlankIcon } from '../../public/icons/Checkbox-blank.svg';
+import { ReactComponent as CreditCardIcon } from '../../public/icons/Credit-card.svg';
+import { ReactComponent as CouponIcon } from '../../public/icons/Coupon.svg';
+import { ReactComponent as StarIcon } from '../../public/icons/Star.svg';
+import { ReactComponent as StarSolidIcon } from '../../public/icons/Star-solid.svg';
+import { ReactComponent as EditIcon } from '../../public/icons/Edit.svg';
+import { ReactComponent as SharedIcon } from '../../public/icons/Shared.svg';
+import { ReactComponent as WarningIcon } from '../../public/icons/Warning.svg';
+import { ReactComponent as FastIcon } from '../../public/icons/Fast.svg';
+import { ReactComponent as DeliveryIcon } from '../../public/icons/Delivery.svg';
+import { ReactComponent as Home2Icon } from '../../public/icons/Home-2.svg';
+import { ReactComponent as ContactIcon } from '../../public/icons/Contact.svg';
+import { ReactComponent as CopyIcon } from '../../public/icons/Copy.svg';
+import { ReactComponent as MessageIcon } from '../../public/icons/Message.svg';
+import { ReactComponent as CashIcon } from '../../public/icons/Cash.svg';
+import { ReactComponent as ArrowSubUpLeftIcon } from '../../public/icons/ArrowSubUpLeft.svg';
+import { ReactComponent as ArrowSubUpRightIcon } from '../../public/icons/ArrowSubUpRight.svg';
+import { ReactComponent as ArrowSubDownLeftIcon } from '../../public/icons/ArrowSubDownLeft.svg';
+import { ReactComponent as ArrowSubDownRightIcon } from '../../public/icons/ArrowSubDownRight.svg';
+import { ReactComponent as VolumenOnIcon } from '../../public/icons/Volumen-on.svg';
+import { ReactComponent as VolumenOffIcon } from '../../public/icons/Volumen-off.svg';
+import { ReactComponent as NavigationIcon } from '../../public/icons/Navigation.svg';
+import { ReactComponent as BoxIcon } from '../../public/icons/Box.svg';
+import { ReactComponent as WalletIcon } from '../../public/icons/Wallet.svg';
+
+
 export const icons = {
-  plus: require('../public/icons/Plus.svg').default,
-  minus: require('../public/icons/Minus.svg').default,
-  info: require('../public/icons/Info.svg').default,
-  check: require('../public/icons/Check.svg').default,
-  checkOne: require('../public/icons/Check-1.svg').default,
-  home: require('../public/icons/Home.svg').default,
-  envelope: require('../public/icons/Envelope.svg').default,
-  profile: require('../public/icons/Profile.svg').default,
-  download: require('../public/icons/Download.svg').default,
-  upload: require('../public/icons/Upload.svg').default,
-  right: require('../public/icons/Right.svg').default,
-  down: require('../public/icons/Down.svg').default,
-  left: require('../public/icons/Left.svg').default,
-  top: require('../public/icons/Top.svg').default,
-  trash: require('../public/icons/Trash.svg').default,
-  lock: require('../public/icons/Lock.svg').default,
-  dropDown: require('../public/icons/Drop-down.svg').default,
-  dropTop: require('../public/icons/Drop-top.svg').default,
-  dropLeft: require('../public/icons/Drop-left.svg').default,
-  dropRight: require('../public/icons/Drop-right.svg').default,
-  cart: require('../public/icons/Cart.svg').default,
-  notification: require('../public/icons/Notification.svg').default,
-  burger: require('../public/icons/Burger.svg').default,
-  location: require('../public/icons/Location.svg').default,
-  search: require('../public/icons/Search.svg').default,
-  shopping: require('../public/icons/Shopping.svg').default,
-  transport: require('../public/icons/Transport.svg').default,
-  offer: require('../public/icons/Offer.svg').default,
-  document: require('../public/icons/Document.svg').default,
-  billing: require('../public/icons/Billing.svg').default,
-  settings: require('../public/icons/Settings.svg').default,
-  chat: require('../public/icons/Chat.svg').default,
-  help: require('../public/icons/Help.svg').default,
-  attachment: require('../public/icons/Attachment.svg').default,
-  close: require('../public/icons/Close.svg').default,
-  logout: require('../public/icons/Logout.svg').default,
-  history: require('../public/icons/History.svg').default,
-  phone: require('../public/icons/Phone.svg').default,
-  send: require('../public/icons/Send.svg').default,
-  photo: require('../public/icons/Photo.svg').default,
-  options: require('../public/icons/Options.svg').default,
-  pin: require('../public/icons/Pin.svg').default,
-  time: require('../public/icons/Time.svg').default,
-  passenger: require('../public/icons/Passenger.svg').default,
-  checkbox: require('../public/icons/Checkbox.svg').default,
-  checkboxBlank: require('../public/icons/Checkbox-blank.svg').default,
-  creditCard: require('../public/icons/Credit-card.svg').default,
-  coupon: require('../public/icons/Coupon.svg').default,
-  star: require('../public/icons/Star.svg').default,
-  starSolid: require('../public/icons/Star-solid.svg').default,
-  edit: require('../public/icons/Edit.svg').default,
-  shared: require('../public/icons/Shared.svg').default,
-  warning: require('../public/icons/Warning.svg').default,
-  fast: require('../public/icons/Fast.svg').default,
-  delivery: require('../public/icons/Delivery.svg').default,
-  home2: require('../public/icons/Home-2.svg').default,
-  contact: require('../public/icons/Contact.svg').default,
-  copy: require('../public/icons/Copy.svg').default,
-  message: require('../public/icons/Message.svg').default,
-  cash: require('../public/icons/Cash.svg').default,
-  arrowSubUpLeft: require('../public/icons/Arrow-sub-up-left.svg').default,
-  arrowSubUpRight: require('../public/icons/Arrow-sub-up-right.svg').default,
-  arrowSubDownLeft: require('../public/icons/Arrow-sub-down-left.svg').default,
-  arrowSubDownRight: require('../public/icons/Arrow-sub-down-right.svg').default,
-  volumenOn: require('../public/icons/Volumen-on.svg').default,
-  volumenOff: require('../public/icons/Volumen-off.svg').default,
-  navigation: require('../public/icons/Navigation.svg').default,
-  box: require('../public/icons/Box.svg').default,
-  wallet: require('../public/icons/Wallet.svg').default,
+  plus: PlusIcon,
+  minus: MinusIcon,
+  info: InfoIcon,
+  check: CheckIcon,
+  checkOne: CheckOneIcon,
+  home: HomeIcon,
+  envelope: EnvelopeIcon,
+  profile: ProfileIcon,
+  download: DownloadIcon,
+  upload: UploadIcon,
+  right: RightIcon,
+  down: DownIcon,
+  left: LeftIcon,
+  top: TopIcon,
+  trash: TrashIcon,
+  lock: LockIcon,
+  dropDown: DropDownIcon,
+  dropTop: DropTopIcon,
+  dropLeft: DropLeftIcon,
+  dropRight: DropRightIcon,
+  cart: CartIcon,
+  notification: NotificationIcon,
+  burger: BurgerIcon,
+  location: LocationIcon,
+  search: SearchIcon,
+  shopping: ShoppingIcon,
+  transport: TransportIcon,
+  offer: OfferIcon,
+  document: DocumentIcon,
+  billing: BillingIcon,
+  settings: SettingsIcon,
+  chat: ChatIcon,
+  help: HelpIcon,
+  attachment: AttachmentIcon,
+  close: CloseIcon,
+  logout: LogoutIcon,
+  history: HistoryIcon,
+  phone: PhoneIcon,
+  send: SendIcon,
+  photo: PhotoIcon,
+  options: OptionsIcon,
+  pin: PinIcon,
+  time: TimeIcon,
+  passenger: PassengerIcon,
+  checkbox: CheckboxIcon,
+  checkboxBlank: CheckboxBlankIcon,
+  creditCard: CreditCardIcon,
+  coupon: CouponIcon,
+  star: StarIcon,
+  starSolid: StarSolidIcon,
+  edit: EditIcon,
+  shared: SharedIcon,
+  warning: WarningIcon,
+  fast: FastIcon,
+  delivery: DeliveryIcon,
+  home2: Home2Icon,
+  contact: ContactIcon,
+  copy: CopyIcon,
+  message: MessageIcon,
+  cash: CashIcon,
+  arrowSubUpLeft: ArrowSubUpLeftIcon,
+  arrowSubUpRight: ArrowSubUpRightIcon,
+  arrowSubDownLeft: ArrowSubDownLeftIcon,
+  arrowSubDownRight: ArrowSubDownRightIcon,
+  volumenOn: VolumenOnIcon,
+  volumenOff: VolumenOffIcon,
+  navigation: NavigationIcon,
+  box: BoxIcon,
+  wallet: WalletIcon,
 };

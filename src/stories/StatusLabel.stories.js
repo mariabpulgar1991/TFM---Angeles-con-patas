@@ -6,6 +6,9 @@ export default {
   title: 'Atoms/StatusLabel',
   component: StatusLabel,
   tags: ['autodocs'],
+  parameters: {
+    layout: 'centered',
+  },
 };
 
 const Template = (args) => <StatusLabel {...args} />;
