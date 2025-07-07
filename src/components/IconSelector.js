@@ -6,7 +6,11 @@ const IconSelector = ({ name, size, color, ...props}) => {
         small: '16px',
         medium: '20px',
         large: '24px',
+<<<<<<< HEAD
         extraLarge: '28px',
+=======
+        extralarge: '28px',
+>>>>>>> main
         display: '40px',
     };
 

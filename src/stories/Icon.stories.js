@@ -6,7 +6,11 @@ import { icons } from '../tokens/icons';
 const iconNames = Object.keys(icons);
 
 export default {
+<<<<<<< HEAD
   title: 'Atoms/Icon',
+=======
+  title: 'Components/Icon',
+>>>>>>> main
   component: Icon,
   parameters: {
     layout: 'centered',
@@ -19,8 +23,13 @@ export default {
       defaultValue: iconNames[0] || 'plus',
     },
     size: {
+<<<<<<< HEAD
       control: 'radio',
       options: ['small', 'medium', 'large', 'extraLarge', 'display'],
+=======
+      control: 'select',
+      options: ['small', 'medium', 'large', 'extraLarge'],
+>>>>>>> main
       description: 'Tamaño del icono.',
       defaultValue: 'medium',
     },
@@ -43,6 +52,7 @@ Default.args = {
 
 
 export const AllIcons = () => (
+<<<<<<< HEAD
   <div
     style={{
       display: 'grid',
@@ -66,6 +76,13 @@ export const AllIcons = () => (
         <span style={{ fontSize: '12px', marginTop: '8px', wordBreak: 'break-word' }}>
           {iconName}
         </span>
+=======
+  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(120px, 1fr))', gap: '20px', padding: '20px' }}>
+    {iconNames.map((iconName) => (
+      <div key={iconName} style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <Icon name={iconName} size="large" />
+        <span style={{ fontSize: '12px', marginTop: '8px', wordBreak: 'break-word' }}>{iconName}</span>
+>>>>>>> main
       </div>
     ))}
   </div>
@@ -74,6 +91,7 @@ export const AllIcons = () => (
 
 export const AllSizes = () => (
   <div>
+<<<<<<< HEAD
     <p style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
       <Icon name={iconNames[0] || 'plus'} size="small" /> Small (16px)
     </p>
@@ -88,10 +106,24 @@ export const AllSizes = () => (
     </p>
     <p style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
       <Icon name={iconNames[0] || 'plus'} size="display" /> Display (40px)
+=======
+    <p>
+      <Icon name={iconNames[0] || 'plus'} size="small" /> Small (16px)
+    </p>
+    <p>
+      <Icon name={iconNames[0] || 'plus'} size="medium" /> Medium (24px)
+    </p>
+    <p>
+      <Icon name={iconNames[0] || 'plus'} size="large" /> Large (32px)
+    </p>
+    <p>
+      <Icon name={iconNames[0] || 'plus'} size="extraLarge" /> Extra Large (48px)
+>>>>>>> main
     </p>
   </div>
 );
 
+<<<<<<< HEAD
 // export const DifferentColors = () => (
 //   <div>
 //     <p>
@@ -105,6 +137,21 @@ export const AllSizes = () => (
 //     </p>
 //   </div>
 // );
+=======
+export const DifferentColors = () => (
+  <div>
+    <p>
+      <Icon name={iconNames[0] || 'plus'} size="medium" color="blue" /> Blue
+    </p>
+    <p>
+      <Icon name={iconNames[0] || 'plus'} size="medium" color="red" /> Red
+    </p>
+    <p>
+      <Icon name={iconNames[0] || 'plus'} size="medium" color="green" /> Green
+    </p>
+  </div>
+);
+>>>>>>> main
 
 
 
